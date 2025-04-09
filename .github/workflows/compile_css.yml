@@ -46,10 +46,12 @@ jobs:
           cp -r dist/public/themes/* public/themes/
 
       - name: Commit and push changes
+        env:
+          DEPLOY_KEY: ${{ secrets.publush_themes }}
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
           git add public/themes/
-          git commit -m "Update compiled customer themes" || echo "No changes to commit"
+          git remote set-url origin https://x-access-token:${DEPLOY_TOKEN}@github.com/${{ github.repository }}
           git push origin publish
