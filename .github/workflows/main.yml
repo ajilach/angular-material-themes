@@ -1,0 +1,57 @@
+name: Compile SCSS Themes and Push to Publish Branch
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # needed to switch branches
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies in angular-sources
+        run: |
+          cd angular-sources
+          npm install
+
+      - name: Install global Sass (CLI)
+        run: npm install -g sass
+
+      - name: Find and compile all theme.scss files
+        run: |
+          mkdir -p dist
+
+          find angular-sources/themes -type f -name "theme.scss" | while read scss_file; do
+            customer=$(basename $(dirname "$scss_file"))
+            out_dir="dist/public/themes/$customer"
+            mkdir -p "$out_dir"
+            sass "$scss_file" "$out_dir/theme.css" --load-path=angular-sources/node_modules
+          done
+
+      - name: Switch to publish branch
+        run: |
+          git fetch origin publish:publish
+          git checkout publish
+
+      - name: Copy compiled CSS into publish branch structure
+        run: |
+          mkdir -p public/themes
+          cp -r ../dist/public/themes/* public/themes/
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add public/themes/
+          git commit -m "Update compiled customer themes" || echo "No changes to commit"
+          git push origin publish
