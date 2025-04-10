@@ -76,8 +76,8 @@
   --mdc-linear-progress-active-indicator-height: 4px;
   --mdc-linear-progress-track-height: 4px;
   --mdc-linear-progress-track-shape: 0;
-  --mdc-plain-tooltip-container-color: #313034;
-  --mdc-plain-tooltip-supporting-text-color: #f4eff5;
+  --mdc-plain-tooltip-container-color: #323034;
+  --mdc-plain-tooltip-supporting-text-color: #f5eff5;
   --mdc-plain-tooltip-supporting-text-line-height: 1rem;
   --mdc-plain-tooltip-supporting-text-font: Roboto;
   --mdc-plain-tooltip-supporting-text-size: 0.75rem;
@@ -168,7 +168,7 @@
   --mat-form-field-filled-with-label-container-padding-top: 24px;
   --mat-form-field-filled-with-label-container-padding-bottom: 8px;
   --mat-form-field-focus-state-layer-opacity: 0;
-  --mat-select-panel-background-color: #f1ecf2;
+  --mat-select-panel-background-color: #f2ecf2;
   --mat-select-enabled-trigger-text-color: #1c1b1f;
   --mat-select-disabled-trigger-text-color: rgba(28, 27, 31, 0.38);
   --mat-select-placeholder-text-color: #49454f;
@@ -183,7 +183,7 @@
   --mat-select-trigger-text-weight: 300;
   --mat-select-arrow-transform: translateY(-8px);
   --mat-select-container-elevation-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
-  --mat-autocomplete-background-color: #f1ecf2;
+  --mat-autocomplete-background-color: #f2ecf2;
   --mat-autocomplete-container-shape: 4px;
   --mat-autocomplete-container-elevation-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   --mdc-dialog-container-color: #fdf8fd;
@@ -399,7 +399,7 @@
   --mat-menu-item-icon-color: #49454f;
   --mat-menu-item-hover-state-layer-color: rgba(28, 27, 31, 0.08);
   --mat-menu-item-focus-state-layer-color: rgba(28, 27, 31, 0.12);
-  --mat-menu-container-color: #f1ecf2;
+  --mat-menu-container-color: #f2ecf2;
   --mat-menu-divider-color: #e7e0ec;
   --mat-menu-item-label-text-font: Roboto;
   --mat-menu-item-label-text-size: 0.875rem;
@@ -668,8 +668,8 @@
   --mat-fab-small-pressed-state-layer-opacity: 0.12;
   --mat-fab-small-disabled-state-container-color: rgba(28, 27, 31, 0.12);
   --mat-fab-small-disabled-state-foreground-color: rgba(28, 27, 31, 0.38);
-  --mdc-snackbar-container-color: #313034;
-  --mdc-snackbar-supporting-text-color: #f4eff5;
+  --mdc-snackbar-container-color: #323034;
+  --mdc-snackbar-supporting-text-color: #f5eff5;
   --mdc-snackbar-supporting-text-font: Roboto;
   --mdc-snackbar-supporting-text-line-height: 1.25rem;
   --mdc-snackbar-supporting-text-size: 0.875rem;
@@ -782,7 +782,7 @@
   --mat-datepicker-range-input-separator-color: #1c1b1f;
   --mat-datepicker-range-input-disabled-state-separator-color: rgba(28, 27, 31, 0.38);
   --mat-datepicker-range-input-disabled-state-text-color: rgba(28, 27, 31, 0.38);
-  --mat-datepicker-calendar-container-background-color: #ece7ec;
+  --mat-datepicker-calendar-container-background-color: #ece6ec;
   --mat-datepicker-calendar-container-text-color: #1c1b1f;
   --mat-datepicker-calendar-text-font: Roboto;
   --mat-datepicker-calendar-text-size: 0.875rem;
@@ -845,8 +845,8 @@
   --mat-stepper-header-edit-state-icon-foreground-color: #ffffff;
   --mat-stepper-container-color: #fdf8fd;
   --mat-stepper-line-color: #7a7580;
-  --mat-stepper-header-hover-state-layer-color: rgba(49, 48, 52, 0.08);
-  --mat-stepper-header-focus-state-layer-color: rgba(49, 48, 52, 0.12);
+  --mat-stepper-header-hover-state-layer-color: rgba(50, 48, 52, 0.08);
+  --mat-stepper-header-focus-state-layer-color: rgba(50, 48, 52, 0.12);
   --mat-stepper-header-label-text-color: #49454f;
   --mat-stepper-header-optional-label-text-color: #49454f;
   --mat-stepper-header-selected-state-label-text-color: #49454f;
