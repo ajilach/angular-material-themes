@@ -273,8 +273,7 @@ $light-theme: mat.define-theme((
         color: (
                 theme-type: light,
                 primary: $light_primary,
-                tertiary: $light_tertiary,
-                use-system-variables: true
+                tertiary: $light_tertiary
         ),
         typography: (
                 plain-family: Roboto,
