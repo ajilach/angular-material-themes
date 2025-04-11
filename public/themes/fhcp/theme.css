@@ -61,7 +61,7 @@
   --mdc-outlined-card-container-shape: 12px;
   --mdc-outlined-card-outline-width: 1px;
   --mat-card-subtitle-text-color: #1c1b1f;
-  --mat-card-title-text-font: Open Sans;
+  --mat-card-title-text-font: Roboto;
   --mat-card-title-text-line-height: 1.75rem;
   --mat-card-title-text-size: 1.375rem;
   --mat-card-title-text-tracking: 0;
@@ -189,7 +189,7 @@
   --mdc-dialog-container-color: #fdf8fd;
   --mdc-dialog-subhead-color: #1c1b1f;
   --mdc-dialog-supporting-text-color: #49454f;
-  --mdc-dialog-subhead-font: Open Sans;
+  --mdc-dialog-subhead-font: Roboto;
   --mdc-dialog-subhead-line-height: 2rem;
   --mdc-dialog-subhead-size: 1.5rem;
   --mdc-dialog-subhead-weight: 300;
@@ -867,7 +867,7 @@
   --mat-sort-arrow-color: #1c1b1f;
   --mat-toolbar-container-background-color: #fdf8fd;
   --mat-toolbar-container-text-color: #1c1b1f;
-  --mat-toolbar-title-text-font: Open Sans;
+  --mat-toolbar-title-text-font: Roboto;
   --mat-toolbar-title-text-line-height: 1.75rem;
   --mat-toolbar-title-text-size: 1.375rem;
   --mat-toolbar-title-text-tracking: 0;
@@ -886,37 +886,37 @@
 }
 
 :root .mat-display-large, :root .mat-typography .mat-display-large, :root .mat-typography h1 {
-  font: 300 3.562rem / 4rem Open Sans;
+  font: 300 3.562rem / 4rem Roboto;
   letter-spacing: -0.016rem;
   margin: 0 0 0.5em;
 }
 :root .mat-display-medium, :root .mat-typography .mat-display-medium, :root .mat-typography h2 {
-  font: 300 2.812rem / 3.25rem Open Sans;
+  font: 300 2.812rem / 3.25rem Roboto;
   letter-spacing: 0;
   margin: 0 0 0.5em;
 }
 :root .mat-display-small, :root .mat-typography .mat-display-small, :root .mat-typography h3 {
-  font: 300 2.25rem / 2.75rem Open Sans;
+  font: 300 2.25rem / 2.75rem Roboto;
   letter-spacing: 0;
   margin: 0 0 0.5em;
 }
 :root .mat-headline-large, :root .mat-typography .mat-headline-large, :root .mat-typography h4 {
-  font: 300 2rem / 2.5rem Open Sans;
+  font: 300 2rem / 2.5rem Roboto;
   letter-spacing: 0;
   margin: 0 0 0.5em;
 }
 :root .mat-headline-medium, :root .mat-typography .mat-headline-medium, :root .mat-typography h5 {
-  font: 300 1.75rem / 2.25rem Open Sans;
+  font: 300 1.75rem / 2.25rem Roboto;
   letter-spacing: 0;
   margin: 0 0 0.5em;
 }
 :root .mat-headline-small, :root .mat-typography .mat-headline-small, :root .mat-typography h6 {
-  font: 300 1.5rem / 2rem Open Sans;
+  font: 300 1.5rem / 2rem Roboto;
   letter-spacing: 0;
   margin: 0 0 0.5em;
 }
 :root .mat-title-large, :root .mat-typography .mat-title-large {
-  font: 300 1.375rem / 1.75rem Open Sans;
+  font: 300 1.375rem / 1.75rem Roboto;
   letter-spacing: 0;
 }
 :root .mat-title-medium, :root .mat-typography .mat-title-medium {
