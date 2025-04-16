@@ -5,7 +5,33 @@
 @use '@angular/material' as mat;
 
 // Fonts
-@import url('https://corsproxy.io/?url=https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/tg/fontfaces.css');
+@font-face {
+        font-family: akzidenz-grotesk;
+        src: url(https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/tg/AktivGrotesk_W_Bd.eot);
+        src: url(https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/tg/AktivGrotesk_W_Bd.eot?#iefix) format('embedded-opentype'), url(https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/tg/AktivGrotesk_W_Bd.woff2) format("woff2"), url(https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/tg/AktivGrotesk_W_Bd.woff) format("woff");
+        font-display: auto;
+        font-style: normal;
+        font-weight: 700;
+        font-stretch: normal;
+}
+@font-face {
+        font-family: akzidenz-grotesk;
+        src: url(https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/tg/AktivGrotesk_W_MdIt.eot);
+        src: url(https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/tg/AktivGrotesk_W_MdIt.eot?#iefix) format('embedded-opentype'), url(https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/tg/AktivGrotesk_W_MdIt.woff2) format("woff2"), url(https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/tg/AktivGrotesk_W_MdIt.woff) format("woff");
+        font-display: auto;
+        font-style: italic;
+        font-weight: 400;
+        font-stretch: normal;
+}
+@font-face {
+        font-family: akzidenz-grotesk;
+        src: url(https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/tg/AktivGrotesk_W_Md.eot);
+        src: url(https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/tg/AktivGrotesk_W_Md.woff2) format("woff2"), url(https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/tg/AktivGrotesk_W_Md.woff2) format("woff");
+        font-display: auto;
+        font-style: normal;
+        font-weight: 500;
+        font-stretch: normal;
+}
 
 // Note: Color palettes are generated from primary: #327A1E
 $light_palettes: (
@@ -273,8 +299,8 @@ $light-theme: mat.define-theme((
                 tertiary: $light_tertiary
         ),
         typography: (
-                plain-family: "akzidenz-grotesk",
-                brand-family: "akzidenz-grotesk",
+                plain-family: akzidenz-grotesk,
+                brand-family: akzidenz-grotesk,
                 bold-weight: 900,
                 medium-weight: 500,
                 regular-weight: 300,
