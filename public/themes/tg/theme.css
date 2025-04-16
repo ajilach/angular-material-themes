@@ -1,3 +1,4 @@
+@import url("https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/tg/fontfaces.css");
 :root {
   --mat-app-background-color: #f7fbef;
   --mat-app-text-color: #181d16;
@@ -32,13 +33,13 @@
   --mat-option-hover-state-layer-color: rgba(24, 29, 22, 0.08);
   --mat-option-focus-state-layer-color: rgba(24, 29, 22, 0.12);
   --mat-option-selected-state-layer-color: #caecb9;
-  --mat-option-label-text-font: Roboto, sans-serif;
+  --mat-option-label-text-font: akzidenz-grotesk;
   --mat-option-label-text-line-height: 1.25rem;
   --mat-option-label-text-size: 1rem;
   --mat-option-label-text-tracking: 0.006rem;
-  --mat-option-label-text-weight: 400;
+  --mat-option-label-text-weight: 300;
   --mat-optgroup-label-text-color: #41493b;
-  --mat-optgroup-label-text-font: Roboto, sans-serif;
+  --mat-optgroup-label-text-font: akzidenz-grotesk;
   --mat-optgroup-label-text-line-height: 1.25rem;
   --mat-optgroup-label-text-size: 0.875rem;
   --mat-optgroup-label-text-tracking: 0.006rem;
@@ -60,12 +61,12 @@
   --mdc-outlined-card-container-shape: 12px;
   --mdc-outlined-card-outline-width: 1px;
   --mat-card-subtitle-text-color: #181d16;
-  --mat-card-title-text-font: Roboto, sans-serif;
+  --mat-card-title-text-font: akzidenz-grotesk;
   --mat-card-title-text-line-height: 1.75rem;
   --mat-card-title-text-size: 1.375rem;
   --mat-card-title-text-tracking: 0;
-  --mat-card-title-text-weight: 400;
-  --mat-card-subtitle-text-font: Roboto, sans-serif;
+  --mat-card-title-text-weight: 300;
+  --mat-card-subtitle-text-font: akzidenz-grotesk;
   --mat-card-subtitle-text-line-height: 1.5rem;
   --mat-card-subtitle-text-size: 1rem;
   --mat-card-subtitle-text-tracking: 0.009rem;
@@ -78,9 +79,9 @@
   --mdc-plain-tooltip-container-color: #2d322a;
   --mdc-plain-tooltip-supporting-text-color: #eef2e6;
   --mdc-plain-tooltip-supporting-text-line-height: 1rem;
-  --mdc-plain-tooltip-supporting-text-font: Roboto, sans-serif;
+  --mdc-plain-tooltip-supporting-text-font: akzidenz-grotesk;
   --mdc-plain-tooltip-supporting-text-size: 0.75rem;
-  --mdc-plain-tooltip-supporting-text-weight: 400;
+  --mdc-plain-tooltip-supporting-text-weight: 300;
   --mdc-plain-tooltip-supporting-text-tracking: 0.025rem;
   --mdc-plain-tooltip-container-shape: 4px;
   --mdc-filled-text-field-caret-color: #246d10;
@@ -103,10 +104,10 @@
   --mdc-filled-text-field-error-active-indicator-color: #ba1a1a;
   --mdc-filled-text-field-error-focus-active-indicator-color: #ba1a1a;
   --mdc-filled-text-field-error-hover-active-indicator-color: #410002;
-  --mdc-filled-text-field-label-text-font: Roboto, sans-serif;
+  --mdc-filled-text-field-label-text-font: akzidenz-grotesk;
   --mdc-filled-text-field-label-text-size: 1rem;
   --mdc-filled-text-field-label-text-tracking: 0.031rem;
-  --mdc-filled-text-field-label-text-weight: 400;
+  --mdc-filled-text-field-label-text-weight: 300;
   --mdc-filled-text-field-active-indicator-height: 1px;
   --mdc-filled-text-field-focus-active-indicator-height: 2px;
   --mdc-filled-text-field-container-shape: 4px;
@@ -128,10 +129,10 @@
   --mdc-outlined-text-field-error-focus-outline-color: #ba1a1a;
   --mdc-outlined-text-field-error-hover-outline-color: #410002;
   --mdc-outlined-text-field-error-outline-color: #ba1a1a;
-  --mdc-outlined-text-field-label-text-font: Roboto, sans-serif;
+  --mdc-outlined-text-field-label-text-font: akzidenz-grotesk;
   --mdc-outlined-text-field-label-text-size: 1rem;
   --mdc-outlined-text-field-label-text-tracking: 0.031rem;
-  --mdc-outlined-text-field-label-text-weight: 400;
+  --mdc-outlined-text-field-label-text-weight: 300;
   --mdc-outlined-text-field-outline-width: 1px;
   --mdc-outlined-text-field-focus-outline-width: 2px;
   --mdc-outlined-text-field-container-shape: 4px;
@@ -151,16 +152,16 @@
   --mat-form-field-enabled-select-arrow-color: #41493b;
   --mat-form-field-disabled-select-arrow-color: rgba(24, 29, 22, 0.38);
   --mat-form-field-hover-state-layer-opacity: 0.08;
-  --mat-form-field-container-text-font: Roboto, sans-serif;
+  --mat-form-field-container-text-font: akzidenz-grotesk;
   --mat-form-field-container-text-line-height: 1.5rem;
   --mat-form-field-container-text-size: 1rem;
   --mat-form-field-container-text-tracking: 0.031rem;
-  --mat-form-field-container-text-weight: 400;
-  --mat-form-field-subscript-text-font: Roboto, sans-serif;
+  --mat-form-field-container-text-weight: 300;
+  --mat-form-field-subscript-text-font: akzidenz-grotesk;
   --mat-form-field-subscript-text-line-height: 1rem;
   --mat-form-field-subscript-text-size: 0.75rem;
   --mat-form-field-subscript-text-tracking: 0.025rem;
-  --mat-form-field-subscript-text-weight: 400;
+  --mat-form-field-subscript-text-weight: 300;
   --mat-form-field-container-height: 56px;
   --mat-form-field-filled-label-display: block;
   --mat-form-field-container-vertical-padding: 16px;
@@ -175,11 +176,11 @@
   --mat-select-disabled-arrow-color: rgba(24, 29, 22, 0.38);
   --mat-select-focused-arrow-color: #246d10;
   --mat-select-invalid-arrow-color: #ba1a1a;
-  --mat-select-trigger-text-font: Roboto, sans-serif;
+  --mat-select-trigger-text-font: akzidenz-grotesk;
   --mat-select-trigger-text-line-height: 1.5rem;
   --mat-select-trigger-text-size: 1rem;
   --mat-select-trigger-text-tracking: 0.031rem;
-  --mat-select-trigger-text-weight: 400;
+  --mat-select-trigger-text-weight: 300;
   --mat-select-arrow-transform: translateY(-8px);
   --mat-select-container-elevation-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   --mat-autocomplete-background-color: #ebefe3;
@@ -188,15 +189,15 @@
   --mdc-dialog-container-color: #f7fbef;
   --mdc-dialog-subhead-color: #181d16;
   --mdc-dialog-supporting-text-color: #41493b;
-  --mdc-dialog-subhead-font: Roboto, sans-serif;
+  --mdc-dialog-subhead-font: akzidenz-grotesk;
   --mdc-dialog-subhead-line-height: 2rem;
   --mdc-dialog-subhead-size: 1.5rem;
-  --mdc-dialog-subhead-weight: 400;
+  --mdc-dialog-subhead-weight: 300;
   --mdc-dialog-subhead-tracking: 0;
-  --mdc-dialog-supporting-text-font: Roboto, sans-serif;
+  --mdc-dialog-supporting-text-font: akzidenz-grotesk;
   --mdc-dialog-supporting-text-line-height: 1.25rem;
   --mdc-dialog-supporting-text-size: 0.875rem;
-  --mdc-dialog-supporting-text-weight: 400;
+  --mdc-dialog-supporting-text-weight: 300;
   --mdc-dialog-supporting-text-tracking: 0.016rem;
   --mdc-dialog-container-shape: 28px;
   --mat-dialog-container-elevation-shadow: none;
@@ -229,7 +230,7 @@
   --mdc-chip-with-icon-selected-icon-color: #072102;
   --mdc-chip-with-trailing-icon-disabled-trailing-icon-color: #181d16;
   --mdc-chip-with-trailing-icon-trailing-icon-color: #41493b;
-  --mdc-chip-label-text-font: Roboto, sans-serif;
+  --mdc-chip-label-text-font: akzidenz-grotesk;
   --mdc-chip-label-text-line-height: 1.25rem;
   --mdc-chip-label-text-size: 0.875rem;
   --mdc-chip-label-text-tracking: 0.006rem;
@@ -303,11 +304,11 @@
   --mat-switch-track-outline-color: #717a6a;
   --mat-switch-disabled-unselected-track-outline-color: #181d16;
   --mat-switch-label-text-color: #181d16;
-  --mat-switch-label-text-font: Roboto, sans-serif;
+  --mat-switch-label-text-font: akzidenz-grotesk;
   --mat-switch-label-text-line-height: 1.25rem;
   --mat-switch-label-text-size: 0.875rem;
   --mat-switch-label-text-tracking: 0.016rem;
-  --mat-switch-label-text-weight: 400;
+  --mat-switch-label-text-weight: 300;
   --mat-switch-disabled-selected-handle-opacity: 1;
   --mat-switch-disabled-unselected-handle-opacity: 0.38;
   --mat-switch-unselected-handle-size: 16px;
@@ -345,11 +346,11 @@
   --mat-radio-checked-ripple-color: #246d10;
   --mat-radio-disabled-label-color: rgba(24, 29, 22, 0.38);
   --mat-radio-label-text-color: #181d16;
-  --mat-radio-label-text-font: Roboto, sans-serif;
+  --mat-radio-label-text-font: akzidenz-grotesk;
   --mat-radio-label-text-line-height: 1.25rem;
   --mat-radio-label-text-size: 0.875rem;
   --mat-radio-label-text-tracking: 0.016rem;
-  --mat-radio-label-text-weight: 400;
+  --mat-radio-label-text-weight: 300;
   --mat-radio-touch-target-display: block;
   --mdc-slider-handle-elevation: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   --mdc-slider-handle-color: #246d10;
@@ -366,7 +367,7 @@
   --mdc-slider-label-label-text-color: #ffffff;
   --mdc-slider-with-overlap-handle-outline-color: #ffffff;
   --mdc-slider-with-tick-marks-disabled-container-color: #181d16;
-  --mdc-slider-label-label-text-font: Roboto, sans-serif;
+  --mdc-slider-label-label-text-font: akzidenz-grotesk;
   --mdc-slider-label-label-text-size: 0.75rem;
   --mdc-slider-label-label-text-line-height: 1rem;
   --mdc-slider-label-label-text-tracking: 0.031rem;
@@ -400,7 +401,7 @@
   --mat-menu-item-focus-state-layer-color: rgba(24, 29, 22, 0.12);
   --mat-menu-container-color: #ebefe3;
   --mat-menu-divider-color: #dce6d3;
-  --mat-menu-item-label-text-font: Roboto, sans-serif;
+  --mat-menu-item-label-text-font: akzidenz-grotesk;
   --mat-menu-item-label-text-size: 0.875rem;
   --mat-menu-item-label-text-tracking: 0.006rem;
   --mat-menu-item-label-text-line-height: 1.25rem;
@@ -434,17 +435,17 @@
   --mdc-list-list-item-hover-state-layer-opacity: 0.08;
   --mdc-list-list-item-focus-state-layer-color: #181d16;
   --mdc-list-list-item-focus-state-layer-opacity: 0.12;
-  --mdc-list-list-item-label-text-font: Roboto, sans-serif;
+  --mdc-list-list-item-label-text-font: akzidenz-grotesk;
   --mdc-list-list-item-label-text-line-height: 1.5rem;
   --mdc-list-list-item-label-text-size: 1rem;
   --mdc-list-list-item-label-text-tracking: 0.031rem;
-  --mdc-list-list-item-label-text-weight: 400;
-  --mdc-list-list-item-supporting-text-font: Roboto, sans-serif;
+  --mdc-list-list-item-label-text-weight: 300;
+  --mdc-list-list-item-supporting-text-font: akzidenz-grotesk;
   --mdc-list-list-item-supporting-text-line-height: 1.25rem;
   --mdc-list-list-item-supporting-text-size: 0.875rem;
   --mdc-list-list-item-supporting-text-tracking: 0.016rem;
-  --mdc-list-list-item-supporting-text-weight: 400;
-  --mdc-list-list-item-trailing-supporting-text-font: Roboto, sans-serif;
+  --mdc-list-list-item-supporting-text-weight: 300;
+  --mdc-list-list-item-trailing-supporting-text-font: akzidenz-grotesk;
   --mdc-list-list-item-trailing-supporting-text-line-height: 1rem;
   --mdc-list-list-item-trailing-supporting-text-size: 0.688rem;
   --mdc-list-list-item-trailing-supporting-text-tracking: 0.031rem;
@@ -468,11 +469,11 @@
   --mat-paginator-container-background-color: #f7fbef;
   --mat-paginator-enabled-icon-color: #41493b;
   --mat-paginator-disabled-icon-color: rgba(24, 29, 22, 0.38);
-  --mat-paginator-container-text-font: Roboto, sans-serif;
+  --mat-paginator-container-text-font: akzidenz-grotesk;
   --mat-paginator-container-text-line-height: 1rem;
   --mat-paginator-container-text-size: 0.75rem;
   --mat-paginator-container-text-tracking: 0.025rem;
-  --mat-paginator-container-text-weight: 400;
+  --mat-paginator-container-text-weight: 300;
   --mat-paginator-select-trigger-text-size: 0.75rem;
   --mat-paginator-container-size: 56px;
   --mat-paginator-form-field-container-height: 40px;
@@ -494,7 +495,7 @@
   --mat-tab-header-active-hover-label-text-color: #181d16;
   --mat-tab-header-active-focus-indicator-color: #246d10;
   --mat-tab-header-active-hover-indicator-color: #246d10;
-  --mat-tab-header-label-text-font: Roboto, sans-serif;
+  --mat-tab-header-label-text-font: akzidenz-grotesk;
   --mat-tab-header-label-text-size: 0.875rem;
   --mat-tab-header-label-text-tracking: 0.006rem;
   --mat-tab-header-label-text-line-height: 1.25rem;
@@ -526,15 +527,15 @@
   --mdc-checkbox-state-layer-size: 40px;
   --mat-checkbox-disabled-label-color: rgba(24, 29, 22, 0.38);
   --mat-checkbox-label-text-color: #181d16;
-  --mat-checkbox-label-text-font: Roboto, sans-serif;
+  --mat-checkbox-label-text-font: akzidenz-grotesk;
   --mat-checkbox-label-text-line-height: 1.25rem;
   --mat-checkbox-label-text-size: 0.875rem;
   --mat-checkbox-label-text-tracking: 0.016rem;
-  --mat-checkbox-label-text-weight: 400;
+  --mat-checkbox-label-text-weight: 300;
   --mat-checkbox-touch-target-display: block;
   --mdc-text-button-label-text-color: #246d10;
   --mdc-text-button-disabled-label-text-color: rgba(24, 29, 22, 0.38);
-  --mdc-text-button-label-text-font: Roboto, sans-serif;
+  --mdc-text-button-label-text-font: akzidenz-grotesk;
   --mdc-text-button-label-text-size: 0.875rem;
   --mdc-text-button-label-text-tracking: 0.006rem;
   --mdc-text-button-label-text-weight: 500;
@@ -549,7 +550,7 @@
   --mdc-protected-button-label-text-color: #246d10;
   --mdc-protected-button-disabled-container-color: rgba(24, 29, 22, 0.12);
   --mdc-protected-button-disabled-label-text-color: rgba(24, 29, 22, 0.38);
-  --mdc-protected-button-label-text-font: Roboto, sans-serif;
+  --mdc-protected-button-label-text-font: akzidenz-grotesk;
   --mdc-protected-button-label-text-size: 0.875rem;
   --mdc-protected-button-label-text-tracking: 0.006rem;
   --mdc-protected-button-label-text-weight: 500;
@@ -559,7 +560,7 @@
   --mdc-filled-button-label-text-color: #ffffff;
   --mdc-filled-button-disabled-container-color: rgba(24, 29, 22, 0.12);
   --mdc-filled-button-disabled-label-text-color: rgba(24, 29, 22, 0.38);
-  --mdc-filled-button-label-text-font: Roboto, sans-serif;
+  --mdc-filled-button-label-text-font: akzidenz-grotesk;
   --mdc-filled-button-label-text-size: 0.875rem;
   --mdc-filled-button-label-text-tracking: 0.006rem;
   --mdc-filled-button-label-text-weight: 500;
@@ -569,7 +570,7 @@
   --mdc-outlined-button-disabled-label-text-color: rgba(24, 29, 22, 0.38);
   --mdc-outlined-button-label-text-color: #246d10;
   --mdc-outlined-button-outline-color: #717a6a;
-  --mdc-outlined-button-label-text-font: Roboto, sans-serif;
+  --mdc-outlined-button-label-text-font: akzidenz-grotesk;
   --mdc-outlined-button-label-text-size: 0.875rem;
   --mdc-outlined-button-label-text-tracking: 0.006rem;
   --mdc-outlined-button-label-text-weight: 500;
@@ -632,7 +633,7 @@
   --mdc-extended-fab-focus-container-elevation-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
   --mdc-extended-fab-hover-container-elevation-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
   --mdc-extended-fab-pressed-container-elevation-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
-  --mdc-extended-fab-label-text-font: Roboto, sans-serif;
+  --mdc-extended-fab-label-text-font: akzidenz-grotesk;
   --mdc-extended-fab-label-text-size: 0.875rem;
   --mdc-extended-fab-label-text-tracking: 0.006rem;
   --mdc-extended-fab-label-text-weight: 500;
@@ -669,30 +670,30 @@
   --mat-fab-small-disabled-state-foreground-color: rgba(24, 29, 22, 0.38);
   --mdc-snackbar-container-color: #2d322a;
   --mdc-snackbar-supporting-text-color: #eef2e6;
-  --mdc-snackbar-supporting-text-font: Roboto, sans-serif;
+  --mdc-snackbar-supporting-text-font: akzidenz-grotesk;
   --mdc-snackbar-supporting-text-line-height: 1.25rem;
   --mdc-snackbar-supporting-text-size: 0.875rem;
-  --mdc-snackbar-supporting-text-weight: 400;
+  --mdc-snackbar-supporting-text-weight: 300;
   --mdc-snackbar-container-shape: 4px;
   --mat-snack-bar-button-color: #8cda71;
   --mat-table-background-color: #f7fbef;
   --mat-table-header-headline-color: #181d16;
   --mat-table-row-item-label-text-color: #181d16;
   --mat-table-row-item-outline-color: #717a6a;
-  --mat-table-header-headline-font: Roboto, sans-serif;
+  --mat-table-header-headline-font: akzidenz-grotesk;
   --mat-table-header-headline-line-height: 1.25rem;
   --mat-table-header-headline-size: 0.875rem;
   --mat-table-header-headline-weight: 500;
   --mat-table-header-headline-tracking: 0.006rem;
-  --mat-table-row-item-label-text-font: Roboto, sans-serif;
+  --mat-table-row-item-label-text-font: akzidenz-grotesk;
   --mat-table-row-item-label-text-line-height: 1.25rem;
   --mat-table-row-item-label-text-size: 0.875rem;
-  --mat-table-row-item-label-text-weight: 400;
+  --mat-table-row-item-label-text-weight: 300;
   --mat-table-row-item-label-text-tracking: 0.016rem;
-  --mat-table-footer-supporting-text-font: Roboto, sans-serif;
+  --mat-table-footer-supporting-text-font: akzidenz-grotesk;
   --mat-table-footer-supporting-text-line-height: 1.25rem;
   --mat-table-footer-supporting-text-size: 0.875rem;
-  --mat-table-footer-supporting-text-weight: 400;
+  --mat-table-footer-supporting-text-weight: 300;
   --mat-table-footer-supporting-text-tracking: 0.016rem;
   --mat-table-header-container-height: 56px;
   --mat-table-footer-container-height: 52px;
@@ -705,7 +706,7 @@
   --mat-badge-text-color: #ffffff;
   --mat-badge-disabled-state-background-color: rgba(186, 26, 26, 0.38);
   --mat-badge-disabled-state-text-color: #ffffff;
-  --mat-badge-text-font: Roboto, sans-serif;
+  --mat-badge-text-font: akzidenz-grotesk;
   --mat-badge-text-size: 0.688rem;
   --mat-badge-text-weight: 500;
   --mat-badge-large-size-text-size: 0.688rem;
@@ -731,11 +732,11 @@
   --mat-badge-large-size-line-height: 16px;
   --mat-bottom-sheet-container-text-color: #181d16;
   --mat-bottom-sheet-container-background-color: #f1f5e9;
-  --mat-bottom-sheet-container-text-font: Roboto, sans-serif;
+  --mat-bottom-sheet-container-text-font: akzidenz-grotesk;
   --mat-bottom-sheet-container-text-line-height: 1.5rem;
   --mat-bottom-sheet-container-text-size: 1rem;
   --mat-bottom-sheet-container-text-tracking: 0.031rem;
-  --mat-bottom-sheet-container-text-weight: 400;
+  --mat-bottom-sheet-container-text-weight: 300;
   --mat-bottom-sheet-container-shape: 28px;
   --mat-standard-button-toggle-hover-state-layer-opacity: 0.08;
   --mat-standard-button-toggle-focus-state-layer-opacity: 0.12;
@@ -747,7 +748,7 @@
   --mat-standard-button-toggle-disabled-selected-state-text-color: rgba(24, 29, 22, 0.38);
   --mat-standard-button-toggle-disabled-selected-state-background-color: rgba(24, 29, 22, 0.12);
   --mat-standard-button-toggle-divider-color: #717a6a;
-  --mat-standard-button-toggle-label-text-font: Roboto, sans-serif;
+  --mat-standard-button-toggle-label-text-font: akzidenz-grotesk;
   --mat-standard-button-toggle-label-text-line-height: 1.25rem;
   --mat-standard-button-toggle-label-text-size: 0.875rem;
   --mat-standard-button-toggle-label-text-tracking: 0.006rem;
@@ -783,7 +784,7 @@
   --mat-datepicker-range-input-disabled-state-text-color: rgba(24, 29, 22, 0.38);
   --mat-datepicker-calendar-container-background-color: #e6eade;
   --mat-datepicker-calendar-container-text-color: #181d16;
-  --mat-datepicker-calendar-text-font: Roboto, sans-serif;
+  --mat-datepicker-calendar-text-font: akzidenz-grotesk;
   --mat-datepicker-calendar-text-size: 0.875rem;
   --mat-datepicker-calendar-body-label-text-size: 0.875rem;
   --mat-datepicker-calendar-body-label-text-weight: 500;
@@ -808,25 +809,25 @@
   --mat-expansion-header-text-color: #181d16;
   --mat-expansion-header-description-color: #41493b;
   --mat-expansion-header-indicator-color: #41493b;
-  --mat-expansion-header-text-font: Roboto, sans-serif;
+  --mat-expansion-header-text-font: akzidenz-grotesk;
   --mat-expansion-header-text-size: 1rem;
   --mat-expansion-header-text-weight: 500;
   --mat-expansion-header-text-line-height: 1.5rem;
   --mat-expansion-header-text-tracking: 0.009rem;
-  --mat-expansion-container-text-font: Roboto, sans-serif;
+  --mat-expansion-container-text-font: akzidenz-grotesk;
   --mat-expansion-container-text-line-height: 1.5rem;
   --mat-expansion-container-text-size: 1rem;
   --mat-expansion-container-text-tracking: 0.031rem;
-  --mat-expansion-container-text-weight: 400;
+  --mat-expansion-container-text-weight: 300;
   --mat-expansion-header-collapsed-state-height: 48px;
   --mat-expansion-header-expanded-state-height: 64px;
   --mat-expansion-container-shape: 12px;
   --mat-expansion-legacy-header-indicator-display: none;
   --mat-expansion-header-indicator-display: inline-block;
-  --mat-grid-list-tile-header-primary-text-size: 400 1rem / 1.5rem Roboto, sans-serif;
-  --mat-grid-list-tile-header-secondary-text-size: 400 0.875rem / 1.25rem Roboto, sans-serif;
-  --mat-grid-list-tile-footer-primary-text-size: 400 1rem / 1.5rem Roboto, sans-serif;
-  --mat-grid-list-tile-footer-secondary-text-size: 400 0.875rem / 1.25rem Roboto, sans-serif;
+  --mat-grid-list-tile-header-primary-text-size: 300 1rem / 1.5rem akzidenz-grotesk;
+  --mat-grid-list-tile-header-secondary-text-size: 300 0.875rem / 1.25rem akzidenz-grotesk;
+  --mat-grid-list-tile-footer-primary-text-size: 300 1rem / 1.5rem akzidenz-grotesk;
+  --mat-grid-list-tile-footer-secondary-text-size: 300 0.875rem / 1.25rem akzidenz-grotesk;
   --mat-icon-color: inherit;
   --mat-sidenav-container-background-color: #f7fbef;
   --mat-sidenav-container-text-color: #41493b;
@@ -852,8 +853,8 @@
   --mat-stepper-header-error-state-label-text-color: #ba1a1a;
   --mat-stepper-header-icon-background-color: #41493b;
   --mat-stepper-header-error-state-icon-foreground-color: #ba1a1a;
-  --mat-stepper-container-text-font: Roboto, sans-serif;
-  --mat-stepper-header-label-text-font: Roboto, sans-serif;
+  --mat-stepper-container-text-font: akzidenz-grotesk;
+  --mat-stepper-header-label-text-font: akzidenz-grotesk;
   --mat-stepper-header-label-text-size: 0.875rem;
   --mat-stepper-header-label-text-weight: 500;
   --mat-stepper-header-error-state-label-text-size: 0.875rem;
@@ -866,18 +867,18 @@
   --mat-sort-arrow-color: #181d16;
   --mat-toolbar-container-background-color: #f7fbef;
   --mat-toolbar-container-text-color: #181d16;
-  --mat-toolbar-title-text-font: Roboto, sans-serif;
+  --mat-toolbar-title-text-font: akzidenz-grotesk;
   --mat-toolbar-title-text-line-height: 1.75rem;
   --mat-toolbar-title-text-size: 1.375rem;
   --mat-toolbar-title-text-tracking: 0;
-  --mat-toolbar-title-text-weight: 400;
+  --mat-toolbar-title-text-weight: 300;
   --mat-toolbar-standard-height: 64px;
   --mat-toolbar-mobile-height: 56px;
   --mat-tree-container-background-color: #f7fbef;
   --mat-tree-node-text-color: #181d16;
-  --mat-tree-node-text-font: Roboto, sans-serif;
+  --mat-tree-node-text-font: akzidenz-grotesk;
   --mat-tree-node-text-size: 1rem;
-  --mat-tree-node-text-weight: 400;
+  --mat-tree-node-text-weight: 300;
   --mat-tree-node-min-height: 48px;
 }
 .mat-theme-loaded-marker {
@@ -885,72 +886,72 @@
 }
 
 :root .mat-display-large, :root .mat-typography .mat-display-large, :root .mat-typography h1 {
-  font: 400 3.562rem / 4rem Roboto, sans-serif;
+  font: 300 3.562rem / 4rem akzidenz-grotesk;
   letter-spacing: -0.016rem;
   margin: 0 0 0.5em;
 }
 :root .mat-display-medium, :root .mat-typography .mat-display-medium, :root .mat-typography h2 {
-  font: 400 2.812rem / 3.25rem Roboto, sans-serif;
+  font: 300 2.812rem / 3.25rem akzidenz-grotesk;
   letter-spacing: 0;
   margin: 0 0 0.5em;
 }
 :root .mat-display-small, :root .mat-typography .mat-display-small, :root .mat-typography h3 {
-  font: 400 2.25rem / 2.75rem Roboto, sans-serif;
+  font: 300 2.25rem / 2.75rem akzidenz-grotesk;
   letter-spacing: 0;
   margin: 0 0 0.5em;
 }
 :root .mat-headline-large, :root .mat-typography .mat-headline-large, :root .mat-typography h4 {
-  font: 400 2rem / 2.5rem Roboto, sans-serif;
+  font: 300 2rem / 2.5rem akzidenz-grotesk;
   letter-spacing: 0;
   margin: 0 0 0.5em;
 }
 :root .mat-headline-medium, :root .mat-typography .mat-headline-medium, :root .mat-typography h5 {
-  font: 400 1.75rem / 2.25rem Roboto, sans-serif;
+  font: 300 1.75rem / 2.25rem akzidenz-grotesk;
   letter-spacing: 0;
   margin: 0 0 0.5em;
 }
 :root .mat-headline-small, :root .mat-typography .mat-headline-small, :root .mat-typography h6 {
-  font: 400 1.5rem / 2rem Roboto, sans-serif;
+  font: 300 1.5rem / 2rem akzidenz-grotesk;
   letter-spacing: 0;
   margin: 0 0 0.5em;
 }
 :root .mat-title-large, :root .mat-typography .mat-title-large {
-  font: 400 1.375rem / 1.75rem Roboto, sans-serif;
+  font: 300 1.375rem / 1.75rem akzidenz-grotesk;
   letter-spacing: 0;
 }
 :root .mat-title-medium, :root .mat-typography .mat-title-medium {
-  font: 500 1rem / 1.5rem Roboto, sans-serif;
+  font: 500 1rem / 1.5rem akzidenz-grotesk;
   letter-spacing: 0.009rem;
 }
 :root .mat-title-small, :root .mat-typography .mat-title-small {
-  font: 500 0.875rem / 1.25rem Roboto, sans-serif;
+  font: 500 0.875rem / 1.25rem akzidenz-grotesk;
   letter-spacing: 0.006rem;
 }
 :root .mat-body-large, :root .mat-typography .mat-body-large, :root .mat-typography {
-  font: 400 1rem / 1.5rem Roboto, sans-serif;
+  font: 300 1rem / 1.5rem akzidenz-grotesk;
   letter-spacing: 0.031rem;
 }
 :root .mat-body-large p, :root .mat-typography .mat-body-large p, :root .mat-typography p {
   margin: 0 0 0.75em;
 }
 :root .mat-body-medium, :root .mat-typography .mat-body-medium {
-  font: 400 0.875rem / 1.25rem Roboto, sans-serif;
+  font: 300 0.875rem / 1.25rem akzidenz-grotesk;
   letter-spacing: 0.016rem;
 }
 :root .mat-body-small, :root .mat-typography .mat-body-small {
-  font: 400 0.75rem / 1rem Roboto, sans-serif;
+  font: 300 0.75rem / 1rem akzidenz-grotesk;
   letter-spacing: 0.025rem;
 }
 :root .mat-label-large, :root .mat-typography .mat-label-large {
-  font: 500 0.875rem / 1.25rem Roboto, sans-serif;
+  font: 500 0.875rem / 1.25rem akzidenz-grotesk;
   letter-spacing: 0.006rem;
 }
 :root .mat-label-medium, :root .mat-typography .mat-label-medium {
-  font: 500 0.75rem / 1rem Roboto, sans-serif;
+  font: 500 0.75rem / 1rem akzidenz-grotesk;
   letter-spacing: 0.031rem;
 }
 :root .mat-label-small, :root .mat-typography .mat-label-small {
-  font: 500 0.688rem / 1rem Roboto, sans-serif;
+  font: 500 0.688rem / 1rem akzidenz-grotesk;
   letter-spacing: 0.031rem;
 }
 
