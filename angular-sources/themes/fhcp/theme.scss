@@ -296,6 +296,10 @@ $dark-theme: mat.define-theme((
 ));
 
 :root {
-  @include mat.all-component-themes($light-theme);
-  @include mat.typography-hierarchy($light-theme);
+        @include mat.all-component-themes($light-theme);
+        @include mat.typography-hierarchy($light-theme);
+
+        // Custom FHCP variables
+        --FHCP-TAG-ACTIVE: #2C8877;
+        --FHCP-TAG-PENDING: #D67942;
 }
