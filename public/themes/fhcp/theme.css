@@ -880,6 +880,8 @@
   --mat-tree-node-text-size: 1rem;
   --mat-tree-node-text-weight: 300;
   --mat-tree-node-min-height: 48px;
+  --FHCP-TAG-ACTIVE: #2C8877;
+  --FHCP-TAG-PENDING: #D67942;
 }
 .mat-theme-loaded-marker {
   display: none;
