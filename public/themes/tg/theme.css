@@ -906,6 +906,18 @@
   --mat-tree-node-text-size: 1rem;
   --mat-tree-node-text-weight: 300;
   --mat-tree-node-min-height: 48px;
+  --FHCP-TAG-ACTIVE-COLOR: #327A1E;
+  --FHCP-TAG-ACTIVE-TEXT-COLOR: white;
+  --FHCP-TAG-PENDING-COLOR: #F24822;
+  --FHCP-TAG-PENDING-TEXT-COLOR: white;
+  --FHCP-TAG-UNASSIGNED-TEXT-COLOR: white;
+  --FHCP-TAG-UNASSIGNED-COLOR: #CA0000;
+  --FHCP-TAG-DRAFT-TEXT-COLOR: #333333;
+  --FHCP-TAG-DRAFT-COLOR: #FCCF0B;
+  --FHCP-TAG-REVIEW-TEXT-COLOR: white;
+  --FHCP-TAG-REVIEW-COLOR: #8944E0;
+  --FHCP-TAG-COMPLETED-TEXT-COLOR: white;
+  --FHCP-TAG-COMPLETED-COLOR: #12531B;
 }
 .mat-theme-loaded-marker {
   display: none;
