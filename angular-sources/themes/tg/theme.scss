@@ -318,6 +318,20 @@ $dark-theme: mat.define-theme((
 ));
 
 :root {
-  @include mat.all-component-themes($light-theme);
-  @include mat.typography-hierarchy($light-theme);
+          @include mat.all-component-themes($light-theme);
+          @include mat.typography-hierarchy($light-theme);
+
+        // Custom FHCP variables
+        --FHCP-TAG-ACTIVE-COLOR: #327A1E;
+        --FHCP-TAG-ACTIVE-TEXT-COLOR: white;
+        --FHCP-TAG-PENDING-COLOR: #F24822;
+        --FHCP-TAG-PENDING-TEXT-COLOR: white;
+        --FHCP-TAG-UNASSIGNED-TEXT-COLOR: white;
+        --FHCP-TAG-UNASSIGNED-COLOR: #CA0000;
+        --FHCP-TAG-DRAFT-TEXT-COLOR: #333333;
+        --FHCP-TAG-DRAFT-COLOR: #FCCF0B;
+        --FHCP-TAG-REVIEW-TEXT-COLOR: white;
+        --FHCP-TAG-REVIEW-COLOR: #8944E0;
+        --FHCP-TAG-COMPLETED-TEXT-COLOR: white;
+        --FHCP-TAG-COMPLETED-COLOR: #12531B;
 }
