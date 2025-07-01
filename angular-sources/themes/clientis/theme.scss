@@ -4,10 +4,28 @@
 @use 'sass:map';
 @use '@angular/material' as mat;
 
+
 @font-face {
   font-family: Clientis;
-  src: url('https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/clientis/font.woff') format('woff');
+  src: url('https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/clientis/Cast-Bold.woff2') format('woff2');
   font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Clientis;
+  src: url('https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/clientis/Cast-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Clientis;
+  src: url('https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/clientis/Cast-Light.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300;
   font-display: swap;
 }
 
