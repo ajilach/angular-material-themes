@@ -993,4 +993,8 @@
   letter-spacing: 0.031rem;
 }
 
+#collaboratorDocumentsReferenceContainer {
+  display: none;
+}
+
 /*# sourceMappingURL=theme.css.map */
