@@ -967,4 +967,8 @@
   letter-spacing: 0.031rem;
 }
 
+#defaultCompleteMessage {
+  display: block !important;
+}
+
 /*# sourceMappingURL=theme.css.map */
