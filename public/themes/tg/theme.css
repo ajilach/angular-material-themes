@@ -1001,4 +1001,8 @@
   display: none;
 }
 
+#defaultCompleteMessage {
+  display: block !important;
+}
+
 /*# sourceMappingURL=theme.css.map */
