@@ -335,3 +335,16 @@ $dark-theme: mat.define-theme((
         --FHCP-TAG-COMPLETED-TEXT-COLOR: white;
         --FHCP-TAG-COMPLETED-COLOR: #12531B;
 }
+
+// Custom TG adjustments (T.Bruecker)
+#collaboratorDocumentsReferenceContainer {
+        display: none;
+}
+
+#personalMessageContainer {
+        display: none;
+}
+
+#defaultCompleteMessage {
+        display: block !important;
+}
