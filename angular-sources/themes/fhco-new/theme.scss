@@ -156,9 +156,6 @@ $light-theme: mat.define-theme((
                 scale: 0
         )
 ));
-        )
-
-))
 
 :root {
   @include mat.all-component-themes($light-theme);
