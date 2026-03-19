@@ -2,6 +2,16 @@ name: Compile SCSS Themes and Push to Publish Branch
 
 on:
   workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Target environment'
+        required: true
+        type: choice
+        options:
+          - local
+          - dev
+          - test
+          - prod
 
 permissions:
   contents: write
@@ -33,7 +43,7 @@ jobs:
 
           find angular-sources/themes -type f -name "theme.scss" | while read scss_file; do
             customer=$(basename $(dirname "$scss_file"))
-            out_dir="dist/public/themes/$customer"
+            out_dir="dist/public/${{ inputs.environment }}/themes/$customer"
             mkdir -p "$out_dir"
             sass "$scss_file" "$out_dir/theme.css" --load-path=angular-sources/node_modules
           done
@@ -45,14 +55,14 @@ jobs:
 
       - name: Copy compiled CSS into publish branch structure
         run: |
-          mkdir -p public/themes
-          cp -r dist/public/themes/* public/themes/
+          mkdir -p public/${{ inputs.environment }}/themes
+          cp -r dist/public/${{ inputs.environment }}/themes/* public/${{ inputs.environment }}/themes/
 
       - name: Commit and push changes
         run: |
             git config user.name "github-actions"
             git config user.email "github-actions@github.com"
             
-            git add public/themes/
-            git commit -m "Update compiled customer themes" || echo "No changes to commit"
+            git add public/${{ inputs.environment }}/themes/
+            git commit -m "Update compiled ${{ inputs.environment }} customer themes" || echo "No changes to commit"
             git push origin publish
