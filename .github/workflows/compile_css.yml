@@ -41,7 +41,7 @@ jobs:
       - name: Switch to publish branch
         run: |
           git fetch origin publish:publish
-          git checkout publish
+          git checkout -f publish
 
       - name: Copy compiled CSS into publish branch structure
         run: |
