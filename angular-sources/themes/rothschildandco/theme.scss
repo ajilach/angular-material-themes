@@ -4,6 +4,23 @@
 @use 'sass:map';
 @use '@angular/material' as mat;
 
+// Fonts
+@font-face {
+  font-family: 'Calluna';
+  src: url('https://use.typekit.net/af/32f92a/000000000000000000014869/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SourceSansPro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/rothschildandco/source-sans-pro-regular.woff2') format('woff2');
+}
+
 // Note: Color palettes are generated from primary: #1c355e, secondary: #cc9f53, tertiary: #1c355e, neutral: #EFECEA, error: #ff0000
 $light_palettes: (
   primary: (
@@ -143,8 +160,8 @@ $light-theme: mat.define-theme((
                 tertiary: $light_tertiary
         ),
         typography: (
-                plain-family: TheSansB,
-                brand-family: TheSansB,
+                plain-family: SourceSansPro,
+                brand-family: Calluna,
                 bold-weight: 900,
                 medium-weight: 500,
                 regular-weight: 300,
