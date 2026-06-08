@@ -13,7 +13,7 @@
 
 
 // Note: Color palettes are generated from primary: #1B2D6D, secondary: #122054, tertiary: #B1B800
-$_palettes: (
+$light_palettes: (
   primary: (
     0: #000000,
     10: #001453,
@@ -134,15 +134,14 @@ $_palettes: (
   ),
 );
 
-$_rest: (
-  secondary: map.get($_palettes, secondary),
-  neutral: map.get($_palettes, neutral),
-  neutral-variant: map.get($_palettes, neutral-variant),
-  error: map.get($_palettes, error),
+$light_rest: (
+        secondary: map.get($light_palettes, secondary),
+        neutral: map.get($light_palettes, neutral),
+        neutral-variant: map.get($light_palettes, neutral-variant),
+        error: map.get($light_palettes, error),
 );
-
-$primary-palette: map.merge(map.get($_palettes, primary), $_rest);
-$tertiary-palette: map.merge(map.get($_palettes, tertiary), $_rest);
+$light_primary: map.merge(map.get($light_palettes, primary), $light_rest);
+$light_tertiary: map.merge(map.get($light_palettes, tertiary), $light_rest);
 
 $light-theme: mat.define-theme((
         color: (
