@@ -3,15 +3,26 @@ name: Compile SCSS Themes and Push to Publish Branch
 on:
   workflow_dispatch:
     inputs:
-      environment:
-        description: 'Target environment'
-        required: true
-        type: choice
-        options:
-          - local
-          - dev
-          - test
-          - prod
+      local:
+        description: 'local'
+        required: false
+        type: boolean
+        default: false
+      dev:
+        description: 'dev'
+        required: false
+        type: boolean
+        default: false
+      test:
+        description: 'test'
+        required: false
+        type: boolean
+        default: false
+      prod:
+        description: 'prod'
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -25,6 +36,24 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Determine selected environments
+        id: envs
+        run: |
+          envs=""
+          [ "${{ inputs.local }}" = "true" ] && envs="$envs local"
+          [ "${{ inputs.dev }}" = "true" ] && envs="$envs dev"
+          [ "${{ inputs.test }}" = "true" ] && envs="$envs test"
+          [ "${{ inputs.prod }}" = "true" ] && envs="$envs prod"
+          envs=$(echo "$envs" | xargs)
+
+          if [ -z "$envs" ]; then
+            echo "No environment selected - check at least one of local/dev/test/prod." >&2
+            exit 1
+          fi
+
+          echo "Selected environments: $envs"
+          echo "list=$envs" >> "$GITHUB_OUTPUT"
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -41,11 +70,13 @@ jobs:
         run: |
           mkdir -p dist
 
-          find angular-sources/themes -type f -name "theme.scss" | while read scss_file; do
-            customer=$(basename $(dirname "$scss_file"))
-            out_dir="dist/public/${{ inputs.environment }}/themes/$customer"
-            mkdir -p "$out_dir"
-            sass "$scss_file" "$out_dir/theme.css" --load-path=angular-sources/node_modules
+          for environment in ${{ steps.envs.outputs.list }}; do
+            find angular-sources/themes -type f -name "theme.scss" | while read scss_file; do
+              customer=$(basename $(dirname "$scss_file"))
+              out_dir="dist/public/$environment/themes/$customer"
+              mkdir -p "$out_dir"
+              sass "$scss_file" "$out_dir/theme.css" --load-path=angular-sources/node_modules
+            done
           done
 
       - name: Switch to publish branch
@@ -55,14 +86,18 @@ jobs:
 
       - name: Copy compiled CSS into publish branch structure
         run: |
-          mkdir -p public/${{ inputs.environment }}/themes
-          cp -r dist/public/${{ inputs.environment }}/themes/* public/${{ inputs.environment }}/themes/
+          for environment in ${{ steps.envs.outputs.list }}; do
+            mkdir -p public/$environment/themes
+            cp -r dist/public/$environment/themes/* public/$environment/themes/
+          done
 
       - name: Commit and push changes
         run: |
             git config user.name "github-actions"
             git config user.email "github-actions@github.com"
-            
-            git add public/${{ inputs.environment }}/themes/
-            git commit -m "Update compiled ${{ inputs.environment }} customer themes" || echo "No changes to commit"
+
+            for environment in ${{ steps.envs.outputs.list }}; do
+              git add public/$environment/themes/
+            done
+            git commit -m "Update compiled customer themes (${{ steps.envs.outputs.list }})" || echo "No changes to commit"
             git push origin publish
