@@ -1,0 +1,51 @@
+@use '@angular/material' as mat;
+@use '../swisscom-base/theme' as base;
+
+:root {
+  @include mat.system-level-colors(base.$light-theme);
+  @include mat.system-level-typography(base.$light-theme);
+  @include mat.system-level-elevation(base.$light-theme);
+  @include mat.system-level-shape(base.$light-theme);
+
+  // Status badge tones, one set per asset status.
+  --redacto-status-draft-bg: transparent;
+  --redacto-status-draft-fg: var(--mat-sys-on-surface-variant);
+  --redacto-status-draft-outline: var(--mat-sys-outline);
+  --redacto-status-review-bg: var(--mat-sys-tertiary-container);
+  --redacto-status-review-fg: var(--mat-sys-on-tertiary-container);
+  --redacto-status-review-outline: transparent;
+  --redacto-status-reviewed-bg: var(--mat-sys-primary-container);
+  --redacto-status-reviewed-fg: var(--mat-sys-on-primary-container);
+  --redacto-status-reviewed-outline: transparent;
+  --redacto-status-translation-bg: var(--mat-sys-surface-container-highest);
+  --redacto-status-translation-fg: var(--mat-sys-on-surface);
+  --redacto-status-translation-outline: transparent;
+  --redacto-status-released-bg: var(--mat-sys-primary);
+  --redacto-status-released-fg: var(--mat-sys-on-primary);
+  --redacto-status-released-outline: transparent;
+  --redacto-status-deprecated-bg: var(--mat-sys-error-container);
+  --redacto-status-deprecated-fg: var(--mat-sys-on-error-container);
+  --redacto-status-deprecated-outline: transparent;
+
+  // Notice tones.
+  --redacto-notice-info-bg: var(--mat-sys-secondary-container);
+  --redacto-notice-info-fg: var(--mat-sys-on-secondary-container);
+  --redacto-notice-error-bg: var(--mat-sys-error-container);
+  --redacto-notice-error-fg: var(--mat-sys-on-error-container);
+
+  // Monospace font for technical ids.
+  --redacto-font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+// Element defaults. Only Redacto hosts load this theme.
+body {
+  margin: 0;
+  font: var(--mat-sys-body-medium);
+  letter-spacing: var(--mat-sys-body-medium-tracking);
+  color: var(--mat-sys-on-surface);
+  background: var(--mat-sys-surface);
+}
+
+a {
+  color: var(--mat-sys-primary);
+}
