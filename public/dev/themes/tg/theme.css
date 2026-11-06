@@ -1045,6 +1045,10 @@
   display: none;
 }
 
+app-case-completion #personalMessageContainer {
+  display: none;
+}
+
 #defaultCompleteMessage {
   display: block !important;
 }
