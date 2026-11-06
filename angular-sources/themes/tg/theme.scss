@@ -341,6 +341,11 @@ $dark-theme: mat.define-theme((
         display: none;
 }
 
+// Hide the personal message only in "Fall abschliessen"; "Informationen anfordern" keeps it (same element id in both masks)
+app-case-completion #personalMessageContainer {
+        display: none;
+}
+
 #defaultCompleteMessage {
         display: block !important;
 }
