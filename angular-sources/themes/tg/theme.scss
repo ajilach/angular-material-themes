@@ -26,7 +26,7 @@
 @font-face {
         font-family: akzidenz-grotesk;
         src: url(https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/tg/AktivGrotesk_W_Md.eot);
-        src: url(https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/tg/AktivGrotesk_W_Md.woff2) format("woff2"), url(https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/tg/AktivGrotesk_W_Md.woff2) format("woff");
+        src: url(https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/tg/AktivGrotesk_W_Md.eot?#iefix) format('embedded-opentype'), url(https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/tg/AktivGrotesk_W_Md.woff2) format("woff2"), url(https://raw.githubusercontent.com/ajilach/angular-material-themes/refs/heads/publish/public/fonts/tg/AktivGrotesk_W_Md.woff) format("woff");
         font-display: auto;
         font-style: normal;
         font-weight: 500;
@@ -303,7 +303,7 @@ $light-theme: mat.define-theme((
                 brand-family: akzidenz-grotesk,
                 bold-weight: 900,
                 medium-weight: 500,
-                regular-weight: 300,
+                regular-weight: 400,
         ),
         density: (
                 scale: 0

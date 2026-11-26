@@ -6,7 +6,7 @@
 @use '@angular/material' as mat;
 
 // Fonts
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 // Note: Color palettes are generated from primary: #65558F
 $light_palettes: (
@@ -280,7 +280,7 @@ $light-theme: mat.define-theme((
                 brand-family: Roboto,
                 bold-weight: 900,
                 medium-weight: 500,
-                regular-weight: 300,
+                regular-weight: 400,
         ),
         density: (
                 scale: 0
